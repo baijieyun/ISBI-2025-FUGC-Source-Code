@@ -1,1 +1,0 @@
-from .fugc import FUGCDataset
