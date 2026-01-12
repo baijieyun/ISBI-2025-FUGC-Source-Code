@@ -1,0 +1,54 @@
+#CPS
+device: 'cuda'
+seed: 1
+fold: 1
+debug: False
+log: False
+data:
+  name: 'fugc'
+  train_folder: 'data_processed/fugc/train/labeled_data'
+  val_folder: 'data_processed/fugc/train/labeled_data'
+  test_folder: 'data_processed/fugc/test/labeled_data'
+  unlabeled_folder: 'data_processed/fugc/train/unlabeled_data'
+  save_folder: 'checkpoints/fugc'
+  train_aug: True
+  img_size: 224
+
+semi:
+  conf_thresh: 0.95
+
+train:
+  l_batchsize: 8
+  u_batchsize: 8
+  num_workers: 4
+  num_epochs: 100
+  warmup_epoch: 40
+  num_iters: False 
+  ema_decay: 0.99
+  optimizer:
+    mode: 'adamw'
+    adamw:
+      lr: 1e-4
+      betas: 
+        - 0.9
+        - 0.999
+      eps: 1e-8
+      weight_decay: 0.05
+    adam:
+      lr: 1e-4
+      betas:
+        - 0.9
+        - 0.999
+
+test:
+  only_test: False  
+  test_model_dir: ''
+  num_workers: 4
+  batch_size: 8
+  
+
+
+model_encoder_id: 0
+model_adapt:
+  adapt_method: False
+  num_domains: 1
