@@ -28,16 +28,16 @@ The challenge promotes **human-in-the-loop learning, foundation models, consiste
 
 | Team | Method | Code | Paper |
 |------|--------|------|------|
-| T1 | Tran et al. | https://zenodo.org/records/16013666 | Tran et al., 2025 |
-| T2 | Pham et al. | https://zenodo.org/records/16014145 | Pham et al., 2025 |
-| T3 | Liu et al. | https://zenodo.org/records/16014322 | Liu et al., 2025 |
-| T4 | Zhang et al. | https://zenodo.org/records/16014436 | Zhang et al., 2025 |
-| T5 | Huang et al. | https://zenodo.org/records/16015993 | Huang et al., 2025 |
-| T6 | Chen et al. | https://zenodo.org/records/16016516 | Chen et al., 2025 |
-| T7 | Liu et al. | https://zenodo.org/records/16016668 | Liu et al., 2025 |
-| T8 | Xiao et al. | https://zenodo.org/records/16017032 | Xiao et al., 2025 |
-| T9 | Islam et al. | https://zenodo.org/records/16017188 | Islam et al., 2025 |
-| T10 | Jiang et al. | https://zenodo.org/records/16017509 | Jiang et al., 2025 |
+| T1 | Tran et al. | https://zenodo.org/records/16013666 | Human-in-the-loop semi-supervised uterine cervix ultrasound image segmentation |
+| T2 | Pham et al. | https://zenodo.org/records/16014145 | Fetal-bcp: Addressing empirical distribution gap in semi-supervised fetal ultrasound segmentation |
+| T3 | Liu et al. | https://zenodo.org/records/16014322 | Light dinov2-unimatch for semi-supervised cervical segmentation |
+| T4 | Zhang et al. | https://zenodo.org/records/16014436 | Semi-supervised segmentation of cervical structures in ultrasound images with pseudo-labels and voting strategy |
+| T5 | Huang et al. | https://zenodo.org/records/16015993 | Leveraging the semi-supervised learning method unimatch v2 for the fetal ultrasound grand challenge |
+| T6 | Chen et al. | https://zenodo.org/records/16016516 | Comt: Co-training mean teachers semi-supervised training framework for cervical segmentation |
+| T7 | Liu et al. | https://zenodo.org/records/16016668 | A vision transformer and resnet ensemble method based on the unimatch semi-supervised segmentation framework for the fetal ultrasound grand challenge |
+| T8 | Xiao et al. | https://zenodo.org/records/16017032 | Hierarchical augmentation consistency learning for semi-supervised medical image segmentation |
+| T9 | Islam et al. | https://zenodo.org/records/16017188 | Semi-supervised transformerbased cervical segmentation: Fugc 2025 challenge |
+| T10 | Jiang et al. | https://zenodo.org/records/16017509 | Semi-cervixseg: A multi-stage training strategy for semi-supervised cervical segmentation |
 
 ---
 
