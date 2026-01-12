@@ -17,6 +17,7 @@ It provides:
 - 300 held-out test images  
 - Evaluation by **DSC, HD, and runtime (RT)**  
 - A weighted ranking scheme: **0.4 × DSC + 0.4 × HD + 0.2 × RT**
+
 **Dataset Repository:** https://zenodo.org/records/14305302
 
 The challenge promotes **human-in-the-loop learning, foundation models, consistency learning, and pseudo-labeling** under extreme label scarcity.
