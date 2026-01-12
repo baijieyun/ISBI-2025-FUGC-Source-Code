@@ -100,12 +100,3 @@ Multi-stage pseudo-label refinement with RWKV-UNet and PVT-EMCAD-B2 using consis
 **Code:** https://zenodo.org/records/16017509  
 
 ---
-
-## 🧪 How to Run
-
-Each team folder supports:
-
-```bash
-pip install -r requirements.txt
-python train.py
-python inference.py
