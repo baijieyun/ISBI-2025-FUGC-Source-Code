@@ -5,8 +5,6 @@
 This repository provides the **complete, browsable source code, trained models, and documentation** for the **Top-10 award-winning methods** from the **Fetal Ultrasound Grand Challenge (FUGC) at ISBI 2025**.  
 The challenge focuses on **semi-supervised cervical segmentation in transvaginal ultrasound (TVS)** for **preterm birth risk assessment**, where only **50 expert-labeled images** are available for training.
 
-All implementations are released as **standard Python source files and folders (not ZIP archives)** to ensure **transparency, reproducibility, and long-term maintenance**.
-
 ---
 
 ## 🧠 About FUGC 2025
@@ -19,6 +17,7 @@ It provides:
 - 300 held-out test images  
 - Evaluation by **DSC, HD, and runtime (RT)**  
 - A weighted ranking scheme: **0.4 × DSC + 0.4 × HD + 0.2 × RT**
+**Dataset Repository:** https://zenodo.org/records/14305302
 
 The challenge promotes **human-in-the-loop learning, foundation models, consistency learning, and pseudo-labeling** under extreme label scarcity.
 
