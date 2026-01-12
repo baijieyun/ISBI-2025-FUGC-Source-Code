@@ -1,0 +1,15 @@
+[paths]
+labeled_dir = "/home/server/cy_home/challenge/data/labeled_data"           # 数据集路径
+unlabeled_dir = "/home/server/cy_home/challenge/data/unlabeled_data"   # 数据集划分路径
+output_dir = "./outputs+unet16"                    # 实验输出路径
+
+[training]
+gpu_id = 1
+epochs = 450
+warmup_epoch = 10
+batch_labeled = 5
+batch_unlabeled = 5
+learning_rate = 0.001
+alpha = 0.999           
+
+
