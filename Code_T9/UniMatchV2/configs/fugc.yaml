@@ -1,0 +1,21 @@
+# arguments for dataset
+dataset: fugc
+data_root: #{path_to_data_root} # path to the root of the dataset
+nclass: 3  
+
+# arguments for training
+epochs: 60
+batch_size: 2  
+lr: 0.000005 
+lr_multi: 40.0
+criterion:
+  name: CELoss 
+  kwargs:
+    ignore_index: 255
+conf_thresh: 0.95
+
+# arguments for model
+model: dpt
+backbone: dinov2_small # dinov2_base, dinov2_small, dinov2_large
+lock_backbone: True
+save_path: #{path_to_save_model} # path to save the model
