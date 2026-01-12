@@ -1,6 +1,6 @@
-# 📦 FUGC 2025 — Fetal Ultrasound Grand Challenge (Top-10 Solutions)
+# 📦 Fetal Ultrasound Grand Challenge: Semi-Supervised Cervical Segmentation (Top-10 Solutions at ISBI 2025)
 
-**Official Repository:** https://github.com/aspirerabbit/ISBI-2025-FUGC-Source-Code  
+**Official Repository:** https://www.codabench.org/competitions/4781/
 
 This repository provides the **complete, browsable source code, trained models, and documentation** for the **Top-10 award-winning methods** from the **Fetal Ultrasound Grand Challenge (FUGC) at ISBI 2025**.  
 The challenge focuses on **semi-supervised cervical segmentation in transvaginal ultrasound (TVS)** for **preterm birth risk assessment**, where only **50 expert-labeled images** are available for training.
